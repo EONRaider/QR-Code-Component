@@ -24,8 +24,8 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [My Solution](https://www.frontendmentor.io/solutions/qr-code-card-in-html5css3-HyXU24U7q)
+- [Check the Live Site](https://eonraider.github.io/QR-Code-Component/)
 
 ## My process
 
