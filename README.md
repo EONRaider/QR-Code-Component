@@ -37,11 +37,18 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 - One of several optimal ways of centering an element on the screen while ensuring responsiveness.
+- Gave my first shot at applying the [CUBE CSS](https://cube.fyi/) methodology to a project
+- Used the [CSS reset](https://piccalil.li/blog/a-modern-css-reset/) by Andy Bell
+- Used Netlify for deployment for the first time
+- Implemented a simple CI/CD pipeline that:
+  - Checks the project's NPM packages for security vulnerabilities
+  - Lints all the code with ESLint
+  - Publishes an image of the NodeJS app to my repository on DockerHub for deployment
 
 ## Author
 - Frontend Mentor - [@EONRaider](https://www.frontendmentor.io/profile/EONRaider)
