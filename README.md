@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR Code Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -25,7 +25,7 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 ### Links
 
 - [My Solution](https://www.frontendmentor.io/solutions/qr-code-card-in-html5css3-HyXU24U7q)
-- [Check the Live Site](https://eonraider.github.io/QR-Code-Component/)
+- [Check the Live Site](https://dazzling-paprenjak-511c53.netlify.app/)
 
 ## My process
 
