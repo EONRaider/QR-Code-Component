@@ -1,4 +1,9 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - QR Code Component solution
+
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/QR-Code-Component?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/qr-code-component)
+[![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
+[![Reddit](https://img.shields.io/badge/Reddit-EONRaider-FF4500?style=flat-square&logo=reddit)](https://www.reddit.com/user/eonraider)
+[![Twitter](https://img.shields.io/badge/Twitter-eon__raider-38A1F3?style=flat-square&logo=twitter)](https://twitter.com/intent/follow?screen_name=eon_raider)
 
 This is a solution to the [QR Code Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -7,10 +12,10 @@ This is a solution to the [QR Code Component challenge on Frontend Mentor](https
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -49,12 +54,8 @@ The app will be available at http://localhost:3000/
 - One of several optimal ways of centering an element on the screen while ensuring responsiveness.
 - Gave my first shot at applying the [CUBE CSS](https://cube.fyi/) methodology to a project
 - Used the [CSS reset](https://piccalil.li/blog/a-modern-css-reset/) by Andy Bell
-- Used Netlify for deployment for the first time
+- Used Netlify for deployment of a static website for the first time
 - Implemented a simple CI/CD pipeline that:
   - Checks the project's NPM packages for security vulnerabilities
   - Lints all the code with ESLint
   - Publishes an image of the NodeJS app to my repository on DockerHub for deployment
-
-## Author
-- Frontend Mentor - [@EONRaider](https://www.frontendmentor.io/profile/EONRaider)
-- Twitter - [@eon_raider](https://www.twitter.com/eon_raider)
