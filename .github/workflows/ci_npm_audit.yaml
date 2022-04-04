@@ -1,0 +1,25 @@
+name: Run NPM audit
+
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
+
+jobs:
+  scan:
+    name: npm audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install dependencies
+        run: npm ci
+      - uses: oke-py/npm-audit-action@v1.8.4
+        with:
+          audit_level: moderate
+          production_flag: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_assignees: npm-audit-bot
+          issue_title: npm audit found vulnerabilities
+          issue_labels: vulnerability,test
+          dedupe_issues: true
