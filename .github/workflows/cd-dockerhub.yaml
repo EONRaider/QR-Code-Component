@@ -1,6 +1,9 @@
 name: cd-to-dockerhub
 
 on:
+  workflow_run:
+    workflows: [ "Run ESLINT" ]
+    types: [ completed ]
   push:
     branches: [ master ]
   pull_request:
