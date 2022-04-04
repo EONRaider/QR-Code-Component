@@ -1,4 +1,4 @@
-name: cd-to-dockerhub
+name: CD to DockerHub
 
 on:
   workflow_run:
