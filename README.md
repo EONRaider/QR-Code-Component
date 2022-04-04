@@ -17,8 +17,6 @@ This is a solution to the [QR Code Component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 A simple project using pure HTML5 and CSS3 showcasing a QR code landing page that 
