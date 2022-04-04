@@ -1,15 +1,17 @@
 import express from 'express';
 
-import config from './config.js';
-
-const { host, port } = config;
+const port = 3000;
 
 const app = express();
 
 app.use(express.static('public'));
 
 app.listen(
-  Number(port),
-  host,
-  () => console.log(`[+] Server listening at http://${host}:${port}`),
+  port,
+  () => console.log(`[+] Server listening at http://127.0.0.1:${port}`),
 );
+
+process.on('SIGTERM', () => {
+  console.log('[!] SIGTERM: Shutting down server...');
+  process.exit(0);
+});
