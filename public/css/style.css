@@ -130,14 +130,14 @@ select {
   border-radius: 0.5rem;
 }
 
-.card-content > section {
+.card-content > article {
   max-width: 90%;
   margin-right: auto;
   margin-bottom: 1rem;
   margin-left: auto;
 }
 
-.card-content > section > * {
+.card-content > article > * {
   text-align: center;
 }
 
