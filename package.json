@@ -1,0 +1,39 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "QR Code Component challenge from FrontendMentor",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EONRaider/QR-Code-Component.git"
+  },
+  "author": "EONRaider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EONRaider/QR-Code-Component/issues"
+  },
+  "homepage": "https://github.com/EONRaider/QR-Code-Component#readme",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
