@@ -1,11 +1,4 @@
-:root {
-  --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-200: hsl(212, 45%, 89%);
-  --clr-blue-200: hsl(220, 15%, 55%);
-  --clr-blue-800: hsl(218, 44%, 22%);
-  --fw-400: 400;
-  --fw-700: 700;
-}
+/* === START CSS RESET === https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Box sizing rules */
 *,
@@ -41,14 +34,9 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  display: grid;
-  justify-content: center;
-  align-content: center;
   min-height: 100vh;
-  font-family: 'Outfit', sans-serif;
   font-size: 1rem;
   text-rendering: optimizeSpeed;
-  /*line-height: 1.5;*/
 }
 
 /* A elements that don't have a class get default styles */
@@ -85,6 +73,23 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* === END CSS RESET === */
+
+/* Global Styling */
+:root {
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(212, 45%, 89%);
+  --clr-blue-200: hsl(220, 15%, 55%);
+  --clr-blue-800: hsl(218, 44%, 22%);
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Outfit', sans-serif;
 }
 
 /* Composition */
