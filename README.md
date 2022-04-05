@@ -28,7 +28,7 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 ### Links
 
 - [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-card-in-html5css3-HyXU24U7q)
-- [Check the Live Site](https://dazzling-paprenjak-511c53.netlify.app/)
+- [Check the Live Site](https://eonraider-qr-code-component.netlify.app/)
 
 ### Run with Docker
 The app will be available at http://localhost:3000/
