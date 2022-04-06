@@ -1,4 +1,4 @@
-name: Run NPM audit
+name: CI - Run NPM audit
 
 on:
   pull_request:
