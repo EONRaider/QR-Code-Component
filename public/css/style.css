@@ -114,10 +114,6 @@ body {
   color: var(--clr-blue-200);
 }
 
-.txt-center {
-  text-align: center;
-}
-
 /* Block */
 .card {
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
