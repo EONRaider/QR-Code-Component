@@ -22,7 +22,7 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 
 ### Screenshot
 
-![qr-code-screenshot](https://gist.github.com/assets/15611424/db41aad6-0c06-4407-8240-56a4b1198c4c)
+![Screenshot Frontend Mentor QR Code Component](https://github.com/EONRaider/QR-Code-Component/assets/15611424/1ebf04fd-3e43-4641-abdb-e1658a65bd75)
 
 ### Links
 
