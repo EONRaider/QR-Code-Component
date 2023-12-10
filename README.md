@@ -22,7 +22,7 @@ leads the visitor to [Frontend Mentor](http://www.frontendmentor.io) website.
 
 ### Screenshot
 
-![qr-code-project](https://github-production-user-asset-6210df.s3.amazonaws.com/15611424/289378171-6ab1857a-73c6-469a-882e-b8def245b3a4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231210T181039Z&X-Amz-Expires=300&X-Amz-Signature=c53743907a0ae5113627e0708082da210430b70fc9269269b431d06b568976bc&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=0)
+![qr-code-screenshot](https://gist.github.com/assets/15611424/db41aad6-0c06-4407-8240-56a4b1198c4c)
 
 ### Links
 
