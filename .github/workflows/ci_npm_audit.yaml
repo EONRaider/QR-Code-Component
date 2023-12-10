@@ -2,9 +2,9 @@ name: CI - Run NPM audit
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [master]
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   scan:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: install dependencies
-        run: npm ci
+        run: npm ci --omit=dev
       - uses: oke-py/npm-audit-action@v1.8.4
         with:
           audit_level: moderate
