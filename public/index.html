@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
+      rel="shortcut icon"
       href="images/favicon-32x32.png"
+      type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,23 +15,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Frontend Mentor | QR code component</title>
+    <title>Frontend Mentor | QR Code Component</title>
   </head>
 
-  <body class="bg-primary">
-    <main class="card | bg-secondary">
-      <div class="card-content | flow">
-        <img src="images/image-qr-code.png" alt="QR Code" />
-        <article>
-          <h1 id="card-title" class="txt-primary">
-            Improve your front-end skills by building projects
-          </h1>
-          <p id="card-text" class="txt-secondary">
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </p>
-        </article>
-      </div>
+  <body class="bg-light-gray">
+    <main class="card | bg-white border-radius-20">
+      <img
+        src="images/image-qr-code.png"
+        alt="QR Code"
+        class="card__qr-code | border-radius-10"
+      />
+      <h1 class="card__title | strong-text dark-blue">
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="card__text | light-text grayish-blue">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
     </main>
   </body>
 </html>

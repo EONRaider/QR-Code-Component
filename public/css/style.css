@@ -1,4 +1,4 @@
-/* === START CSS RESET === https://piccalil.li/blog/a-modern-css-reset/ */
+/* === START CSS RESET === https://andy-bell.co.uk/a-more-modern-css-reset/ */
 
 /* Box sizing rules */
 *,
@@ -7,7 +7,14 @@
   box-sizing: border-box;
 }
 
-/* Remove default margin */
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
 body,
 h1,
 h2,
@@ -27,21 +34,24 @@ ol[role='list'] {
   list-style: none;
 }
 
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  font-size: 1rem;
-  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  color: currentColor;
 }
 
 /* Make images easier to work with */
@@ -59,94 +69,86 @@ select {
   font: inherit;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
 
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
 }
 
 /* === END CSS RESET === */
 
-/* Global Styling */
-:root {
-  --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-200: hsl(212, 45%, 89%);
-  --clr-blue-200: hsl(220, 15%, 55%);
-  --clr-blue-800: hsl(218, 44%, 22%);
-}
-
+/* COMPOSITION */
 body {
-  display: grid;
+  display: flex;
   justify-content: center;
-  align-content: center;
-  font-family: 'Outfit', sans-serif;
+  align-items: center;
+  font-family: Outfit, 'sans-serif';
 }
 
-/* Composition */
-.flow > * + * {
-  margin-top: 1.1rem;
+/* UTILITIES */
+
+.bg-white {
+  background-color: hsl(0, 0%, 100%);
 }
 
-/* Utilities */
-.bg-primary {
-  background-color: var(--clr-neutral-200);
+.bg-light-gray {
+  background-color: hsl(212, 45%, 89%);
 }
 
-.bg-secondary {
-  background-color: var(--clr-neutral-100);
+.dark-blue {
+  color: hsl(218, 44%, 22%);
 }
 
-.txt-primary {
-  color: var(--clr-blue-800);
+.grayish-blue {
+  color: hsl(220, 15%, 55%);
 }
 
-.txt-secondary {
-  color: var(--clr-blue-200);
+.border-radius-10 {
+  border-radius: 10px;
 }
 
-/* Block */
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.strong-text {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.light-text {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* BLOCK */
 .card {
-  box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
-  border-radius: 1rem;
-  padding: 12px;
+  width: 320px;
+  height: 497px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
 }
 
-.card-content {
-  max-width: 230px;
+.card__qr-code {
+  width: 288px;
+  height: 288px;
 }
 
-.card-content > img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-}
-
-.card-content > article {
-  max-width: 90%;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  margin-left: auto;
-}
-
-.card-content > article > * {
+.card__title {
   text-align: center;
+  margin-top: 24px;
 }
 
-#card-title {
-  font-size: 1.1em;
-  margin-bottom: 13px;
-}
-
-#card-text {
-  font-size: 0.75rem;
+.card__text {
+  text-align: center;
+  letter-spacing: 0.188px;
+  width: 256px;
+  margin-top: 16px;
 }
