@@ -1,7 +1,7 @@
 {
   "name": "qr-code-component",
-  "version": "1.0.0",
-  "description": "QR Code Component challenge from FrontendMentor",
+  "version": "1.1.0",
+  "description": "QR Code Component challenge from Frontend Mentor using HTML5/CSS3",
   "main": "app.js",
   "type": "module",
   "scripts": {
